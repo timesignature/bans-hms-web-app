@@ -3,7 +3,7 @@ import axios from "axios";
 
 export default function usePatients(){
     return useQuery(['patients'],
-        ()=>axios.get(`/PatientCard`,{
+        ()=>axios.get(`/PatientList`,{
             baseURL:`http://localhost:7048/BC130/ODataV4/Company('Baines Avenue Clinic')`,
             auth:{
                 username:'shelton',
