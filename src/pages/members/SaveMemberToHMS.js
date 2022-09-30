@@ -30,7 +30,7 @@ export default function SaveMemberToHMS({data}){
 
     const mutation=useMutation(async(values)=>{
 
-        return axios.post('/PatientCard',values,{
+        return axios.post('/PatientRegCard',values,{
             baseURL:`http://desktop-garljai:7048/BC130/ODataV4/Company('Baines Avenue Clinic')`,
             auth:{
                 username:'shelton',

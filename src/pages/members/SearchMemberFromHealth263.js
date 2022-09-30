@@ -1,9 +1,9 @@
 import {useState} from "react";
+import toast from "react-hot-toast";
 import X2JS from 'x2js'
 import MemberBeneficiary from "./MemberBeneficiary";
 import MemberContact from "./MemberContact";
 import MemberAddress from "./MemberAddress";
-import toast from "react-hot-toast";
 import SaveMemberToHMS from "./SaveMemberToHMS";
 import MemberMedical from "./MemberMedical";
 
